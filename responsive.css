@@ -1,0 +1,17 @@
+
+
+/* Mobile devices */
+@media only screen and (max-width: 767px){
+
+    /* Size section */
+    .earth-animal__sizes--content-wrapper{
+        overflow-x: auto;
+        width: 260%;
+    }
+
+    .earth-animal__sizes--content .sizes__single-item{
+        width: 70%;
+    }
+
+
+}

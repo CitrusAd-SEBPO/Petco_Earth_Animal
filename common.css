@@ -1,0 +1,77 @@
+/* Imported files */
+@import "font.css";
+
+
+/* All the common classes that have common styles */
+
+
+/* Need to remove the body styles during handoff */
+body{
+    margin: 0;
+    padding: 0;
+}
+/* Need to remove the body styles during handoff */
+
+.earth-animal *{
+    margin: 0;
+    padding: 0;
+}
+
+.earth-animal a{
+    text-decoration: none;
+}
+
+.earth-animal img{
+    width: 100%;
+}
+
+.earth-animal h1, h2, h3{
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}
+
+.earth-animal p {
+    font-family: "PetcoCircularTT-Regular", arial !important;
+}
+
+.earth-animal .cta-box{
+
+}
+
+.earth-animal .cta-box:hover{
+
+}
+
+.earth-animal .cta-underline{
+
+}
+
+.earth-animal .cta-underline:hover{
+
+}
+
+.earth-animal .custom-container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.earth-animal .container-full{
+    width: 100%;
+}
+
+.earth-animal .flex-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+.earth-animal__section-title{
+    padding: 40px 15px 25px;
+}
+
+.earth-animal__section-title h2{
+    text-align: center;
+    font-size: 25px;
+    color: #000000;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+}

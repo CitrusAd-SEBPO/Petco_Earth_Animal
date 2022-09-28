@@ -1,0 +1,40 @@
+
+
+/* Size section */
+.earth-animal__sizes--content{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.earth-animal__sizes--content .sizes__single-item{
+    padding: 13px;
+}
+
+.earth-animal__sizes--content .sizes__single-item:first-child{
+    padding-left: 0;
+}
+
+.earth-animal__sizes--content .sizes__single-item:last-child{
+    padding-right: 0;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--img{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text{
+    padding: 40px 15px;
+    background: rgba(239, 130, 34, 0.2);
+    text-align: center;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text h2{
+    padding-bottom: 20px;
+    font-size: 20px;
+}
+
+.earth-animal__sizes--content .sizes__single-item .sizes__single-item--text p{
+    font-size: 16px;
+}
