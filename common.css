@@ -15,6 +15,7 @@ body{
 .earth-animal *{
     margin: 0;
     padding: 0;
+    line-height: initial !important;
 }
 
 .earth-animal a{
@@ -59,11 +60,12 @@ body{
 }
 
 .earth-animal .cta-underline{
-
-}
-
-.earth-animal .cta-underline:hover{
-
+ font-size: 16px;
+ color: #001952;
+ text-decoration: underline;
+ text-transform: capitalize;
+ font-family: "PetcoCircularTT-Bold", arial !important;
+ cursor: pointer;
 }
 
 .earth-animal .custom-container{
@@ -83,7 +85,11 @@ body{
 }
 
 .earth-animal__section-title{
-    padding: 40px 15px 25px;
+    padding: 25px 15px;
+}
+
+.earth-animal .section-padding30{
+    padding: 30px 0;
 }
 
 .earth-animal__section-title h2{

@@ -48,3 +48,39 @@
     color: #000;
     text-align: center;
 }
+
+
+/* Variety proteins */
+.earth-animal .variety-proteins__content{
+    width: 100%;
+    overflow-x: auto;
+}
+
+.earth-animal .variety-proteins__content--wrapper{
+    align-items: flex-end;
+}
+
+.earth-animal .variety-proteins__single-item{
+    padding: 13px;
+}
+
+.earth-animal .variety-proteins__single-item a{
+    display: block;
+}
+
+.earth-animal .variety-proteins__single-item--img{
+    max-width: 200px;
+}
+
+.earth-animal .variety-proteins__single-item--text{
+    text-align: center;
+}
+
+.earth-animal .variety-proteins__single-item--text h3{
+    color: #000;
+    font-size: 18px;
+}
+
+.earth-animal .variety-proteins__single-item--text .cta-underline{
+    padding: 30px 0;
+}

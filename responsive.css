@@ -3,6 +3,24 @@
 /* Mobile devices */
 @media only screen and (max-width: 767px){
 
+    /* CTA Styles */
+    .earth-animal .cta-box {
+        width: auto;
+    }
+
+    .earth-animal .cta-box a{
+        text-transform: capitalize;
+        text-decoration: underline;
+        color: #001952;
+        background: none;
+        border: none;
+    }
+
+    .earth-animal .cta-box a:hover{
+        color: #001952;
+        border: none;
+    }
+
     /* Size section */
     .earth-animal__sizes--content-wrapper{
         overflow-x: auto;
@@ -11,6 +29,16 @@
 
     .earth-animal__sizes--content .sizes__single-item{
         width: 70%;
+    }
+
+    /* Variety proteins */
+    .earth-animal .variety-proteins__content--wrapper{
+        overflow-x: auto;
+        width: 245%;
+    }
+
+    .earth-animal .variety-proteins__single-item{
+        width: 40%;
     }
 
 
