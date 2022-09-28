@@ -34,11 +34,28 @@ body{
 }
 
 .earth-animal .cta-box{
-
+    width: 210px;
+    margin: 0 auto;
 }
 
-.earth-animal .cta-box:hover{
+.earth-animal .cta-box a{
+    border-radius: 5px;
+    color: #fff;
+    background: #001952;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-family: "PetcoCircularTT-Bold", arial !important;
+    font-size: 16px;
+    text-transform: uppercase;
+    border: 1px solid #001952;
+}
 
+.earth-animal .cta-box a:hover{
+    background: #fff;
+    color: #001952;
+    border: 1px solid #001952;
+    transition: 0.5s ease-in-out;
 }
 
 .earth-animal .cta-underline{
