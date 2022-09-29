@@ -84,3 +84,54 @@
 .earth-animal .variety-proteins__single-item--text .cta-underline{
     padding: 30px 0;
 }
+
+
+/* Bottom Hero */
+.earth-animal .bottom-hero{
+    background: rgba(15, 159, 170, 0.2);
+    display: block;
+    margin: 100px 0;
+}
+
+.earth-animal .bottom-hero__bg{
+    background-image: url("img/petco-earth-animal-bottom-hero-ingredient.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.earth-animal .bottom-hero__content{
+
+}
+
+.earth-animal .bottom-hero__content-wrapper{
+    min-height: 300px;
+}
+
+.earth-animal .bottom-hero__content-wrapper--col{
+    position: relative;
+    width: 50%;
+}
+
+.earth-animal .bottom-hero__content--img{
+    position: absolute;
+    top: -223px;
+    padding: 30px;
+}
+
+.earth-animal .bottom-hero__content--text{
+    text-align: center;
+}
+
+.earth-animal .bottom-hero__content--text h2{
+    font-size: 25px;
+    color: #000000;
+}
+
+.earth-animal .bottom-hero__content--text p{
+    font-size: 16px;
+    color: #000000;
+    padding: 20px 15px;
+    max-width: 530px;
+    margin: 0 auto;
+}

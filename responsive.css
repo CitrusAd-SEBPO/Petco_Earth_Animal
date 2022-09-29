@@ -1,4 +1,34 @@
 
+/* Medium devices */
+@media only screen and (min-width: 1024px) and (max-width: 1279px) {
+
+    /* Bottom Hero */
+    .earth-animal .bottom-hero__content-wrapper{
+        min-height: 250px;
+    }
+    
+    .earth-animal .bottom-hero__content--img{
+        top: -180px;
+    }
+    
+}
+
+/* Tab devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    /* Bottom Hero */
+    .earth-animal .bottom-hero__content-wrapper{
+        min-height: 230px;
+    }
+    
+    .earth-animal .bottom-hero__content--img{
+        top: -128px;
+        padding: 0;
+    }
+    
+}
+
+
 
 /* Mobile devices */
 @media only screen and (max-width: 767px){
@@ -39,6 +69,38 @@
 
     .earth-animal .variety-proteins__single-item{
         width: 40%;
+    }
+
+
+    /* Bottom Hero */
+    .earth-animal .bottom-hero {
+        margin: 50px 0 30px;
+    }
+
+    .earth-animal .bottom-hero__bg{
+        background-image: none;
+    }
+
+    .earth-animal .bottom-hero__content-wrapper{
+        flex-wrap: wrap;
+    }
+
+    .earth-animal .bottom-hero__content-wrapper--col{
+        width: 100%;
+    }
+
+    .earth-animal .bottom-hero__content-wrapper--col:first-child{
+        order: 2;
+    }
+
+    .earth-animal .bottom-hero__content--text {
+        padding: 40px 15px 30px;
+    }
+
+    .earth-animal .bottom-hero__content--img{
+        padding: 0;
+        position: unset;
+        display: flex;
     }
 
 
