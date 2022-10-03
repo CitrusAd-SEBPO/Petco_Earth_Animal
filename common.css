@@ -18,6 +18,17 @@ body{
     line-height: initial !important;
 }
 
+
+/* Show hide class */
+.m-hide{
+    display: block;
+}
+
+.d-hide{
+    display: none;
+}
+
+
 .earth-animal a{
     text-decoration: none;
 }
