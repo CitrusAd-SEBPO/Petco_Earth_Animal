@@ -79,6 +79,9 @@
 .earth-animal .variety-proteins__single-item--text h3{
     color: #000;
     font-size: 18px;
+    min-height: 42px;
+    max-width: 160px;
+    margin: 0 auto;
 }
 
 .earth-animal .variety-proteins__single-item--text .cta-underline{
@@ -94,14 +97,10 @@
 }
 
 .earth-animal .bottom-hero__bg{
-    background-image: url("img/petco-earth-animal-bottom-hero-ingredient.png");
+    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-bottom-hero-ingredient");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: right;
-}
-
-.earth-animal .bottom-hero__content{
-
 }
 
 .earth-animal .bottom-hero__content-wrapper{

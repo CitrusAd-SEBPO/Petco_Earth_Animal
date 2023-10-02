@@ -50,6 +50,26 @@
     padding: 15px 0;
 }
 
+
+.pov3 .citrus_earth_animal__pov--text h1{
+    color: #00205B;
+}
+
+.pov3 .citrus_earth_animal__pov--text p{
+    color: #00205B;
+}
+
+.pov3 .citrus_earth_animal__pov--cta a{
+    background: #00205B !important;
+    color: #fff !important;
+    border: 1px solid #00205B !important;
+}
+
+.pov3 .citrus_earth_animal__pov--cta a:hover{
+    background: #fff !important;
+    color: #00205B !important;
+}
+
 .citrus_earth_animal__pov--text p{
     font-size: 16px;
     color: #fff;
@@ -82,13 +102,13 @@
 }
 
 .citrus_earth_animal_carousel-inner .pov1{
-    background-image: url("img/petco-earth-animal-pov1-dsk.jpg");
+    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov1-dsk");
 }
 .citrus_earth_animal_carousel-inner .pov2{
-    background-image: url("img/petco-earth-animal-pov2-dsk.jpg");
+    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov2-dsk");
 }
 .citrus_earth_animal_carousel-inner .pov3{
-    background-image: url("img/petco-earth-animal-pov3-dsk.jpg");
+    background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov3-dsk");
 }
 
 .citrus_earth_animal_carousel-controls .prev{

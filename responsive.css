@@ -88,13 +88,13 @@
     }
 
     .citrus_earth_animal_carousel-inner .pov1 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov1-mob.jpg");
+        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov1-mob");
     }
     .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov2-mob.jpg");
+        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov2-mob");
     }
     .citrus_earth_animal_carousel-inner .pov3 .citrus_earth_animal_carousel-item__col:last-child{
-        background-image: url("img/petco-earth-animal-pov3-mob.jpg");
+        background-image: url("https://assets.petco.com/petco/image/upload/f_auto,q_auto/petco-earth-animal-pov3-mob");
     }
 
     .citrus_earth_animal_carousel-inner .pov2 .citrus_earth_animal_carousel-item__col:last-child .citrus_earth_animal__pov--shots{
@@ -145,10 +145,14 @@
         color: #fff !important;
     }
 
+    .pov3 .citrus_earth_animal_carousel-item__col .citrus_earth_animal__pov--cta a{
+        color: #00205B !important;
+    }
+
     /* Size section */
     .earth-animal__sizes--content-wrapper{
         overflow-x: auto;
-        width: 260%;
+        width: 330%;
     }
 
     .earth-animal__sizes--content .sizes__single-item{
